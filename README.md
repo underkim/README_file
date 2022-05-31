@@ -40,7 +40,7 @@
   + ps는 ps한 시점에 proc에서 검색한 cpu 사용량
   + top은 proc에서 일정 주기로 합산해 cpu 사용율 출력
 
-* top -b -n 1 
+ __`top -b -n 1`__
 ![image](https://user-images.githubusercontent.com/51310308/171113804-af0b9027-aebd-4a33-8ae9-8deb5bfb2758.png)
 
   + 3:58 : 3시간 58분 전에 서버가 구동
@@ -51,7 +51,7 @@
   + VIRT, RES, SHR : 메모리 사용량 => 누수 check 가능
   + S : 프로세스 상태(작업중, I/O 대기, 유휴 상태 등) 
 
-
+----------------
 ### 2. ps
 **현재 실행중인 프로세스 목록과 상태를 보여주는 명령어**
 
