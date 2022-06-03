@@ -104,6 +104,33 @@ __`ps aux`__
 
 -----------------------
 ### 3. jobs
+**작업의 상태를 표시하는 명령어**
+
+
+|옵션|설명|
+|:--:|:--:|
+|-l|프로세스 그룹 ID를 state 필드 앞에 출력|
+|-n|프로세스 그룹 중에 대표 프로세스 ID를 출력|
+|-p|각 프로세스 ID에 대해 한 행씩 출력|
+|command|지정한 명령어를 실행|
+
+
+__`jobs`__
+
+
+![image](https://user-images.githubusercontent.com/51310308/171798127-3e2236c1-bc6d-4017-8c2a-23c30c8d8dd5.png)
+
+
+|상태|설명|
+|:--:|:--:|
+|Running|작업이 일시 중단되지 않았고 종료하지 않고 계속 진행 중임|
+|Done| 작업이 완료되어 0을 반환하고 종료 했음을 의미|
+|Done(code)|작업이 정삭적으로 완료되었으며, 0이 아닌 코드를 반환 했음을 의미|
+|Stopped|작업이 일시 중단|
+|Stopped(SIGTSTP)|SIGTSTP 신호가 작업을 일시 중단|
+|Stopped(SIGSTOP)|SIGSTOP 신호가 작업을 일시 중단|
+|Stopped(SIGTTIN)|SIGTTIN 신호가 작업을 일시 중단|
+|Stopped(SIGTTOU)|SIGTTOU 신호가 작업을 일시 중단|
 
 
 *********
