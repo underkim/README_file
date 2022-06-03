@@ -137,12 +137,17 @@ __`jobs`__
 ### 4. kill
 **프로세스에 시그널을 보내는 명령어**
 + 기본동작이 프로그램 종료
-+ kill [시그널옵션]
++ kill [옵션 or 시그널] PID
 
 __`kill -l`__
 
 
 ![image](https://user-images.githubusercontent.com/51310308/171799411-9486cc15-4077-4b5f-8fdf-2d8c703eaa58.png)
+
+__`kill -9 PID`__
+
+
+![image](https://user-images.githubusercontent.com/51310308/171808014-91b242c3-55b7-4369-ba74-5fc0a64a421e.png)
 
 
 ***
